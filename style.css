@@ -125,6 +125,11 @@ START of CSS */
 
 .search_sec {
     grid-column: 1 / 5;
+
+}
+
+.search_sec a img {
+    width: 30px;
 }
 
 .profile_sec {
