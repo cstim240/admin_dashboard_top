@@ -125,7 +125,10 @@ START of CSS */
 
 .search_sec {
     grid-column: 1 / 5;
+    padding: 20px;
 
+    display: grid;
+    grid-template-columns: 30px 4fr;
 }
 
 .search_sec a img {
