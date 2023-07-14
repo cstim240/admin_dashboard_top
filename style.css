@@ -88,6 +88,15 @@ START of CSS */
     display: grid;
     grid-template-rows: repeat(10, 1fr);
 }
+.side_item {
+    display: grid;
+    grid-template-columns: 40px 40px;
+    align-items: center;
+}
+.side_item img {
+    width: 40px;
+    height: 40px;
+}
 
 .nav_bar {
     background-color: khaki;
