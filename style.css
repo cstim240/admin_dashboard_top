@@ -87,11 +87,13 @@ START of CSS */
     grid-column: 1 / span 3;
     display: grid;
     grid-template-rows: repeat(10, 1fr);
+    
 }
-.side_item {
+.side_item a {
     display: grid;
     grid-template-columns: 40px 40px;
     align-items: center;
+    text-decoration-line: none;
 }
 .side_item img {
     width: 40px;
