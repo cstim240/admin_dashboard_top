@@ -54,7 +54,7 @@ START of CSS */
     background-color: aquamarine;
     border: 1px solid black;
     display: grid;
-    grid-template-rows: repeat(auto-fit, minmax(25px, 125px));
+    grid-template-rows: repeat(auto-fit, 125px);
     grid-template-columns: repeat(auto-fit, 1fr);
 }
 
