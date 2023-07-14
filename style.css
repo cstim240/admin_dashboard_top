@@ -85,6 +85,8 @@ START of CSS */
     border: 1px solid black;
     grid-row: 2 / 10;
     grid-column: 1 / span 3;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
 }
 
 .nav_bar {
