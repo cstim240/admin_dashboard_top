@@ -129,10 +129,17 @@ START of CSS */
 
     display: grid;
     grid-template-columns: 30px 4fr;
+    gap: 10px;
 }
 
 .search_sec a img {
     width: 30px;
+}
+
+.search_sec input {
+    border-radius: 20px;
+    height: 30px;
+    border: none;
 }
 
 .profile_sec {
