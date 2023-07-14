@@ -175,6 +175,8 @@ START of CSS */
 }
 
 .greetings_sec {
+    height: 75px;
+    padding-bottom: -15px;
     grid-column: 1 / 4;
 
     display: grid;
