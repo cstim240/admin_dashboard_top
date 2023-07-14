@@ -62,7 +62,22 @@ START of CSS */
     background-color: chartreuse;
     border: 1px solid black;
     grid-column: 1 / 4;
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
 }
+
+.header p {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.header img {
+    height: 100px;
+    width: 100px;
+}
+
 
 .sidebar {
     background-color: plum;
