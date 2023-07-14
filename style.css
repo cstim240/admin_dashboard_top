@@ -46,3 +46,36 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*=====================================================================================================================
+START of CSS */
+
+.container {
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.header {
+    background-color: chartreuse;
+    border: 1px solid black;
+}
+
+.sidebar {
+    background-color: plum;
+    border: 1px solid black;
+}
+
+.nav_bar {
+    background-color: khaki;
+    border: 1px solid black;
+}
+
+.articles {
+    background-color: darkorange;
+    border: 1px solid black;
+}
+
+.footer {
+    background-color: blueviolet;
+    border: 1px solid black;
+}
