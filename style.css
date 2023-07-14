@@ -59,6 +59,7 @@ START of CSS */
 }
 
 .header {
+    padding: 5px;
     background-color: chartreuse;
     border: 1px solid black;
     grid-column: 1 / 4;
@@ -82,11 +83,12 @@ START of CSS */
 
 .sidebar {
     background-color: plum;
+    padding: 15px;
     border: 1px solid black;
     grid-row: 2 / 10;
     grid-column: 1 / span 3;
     display: grid;
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 50px);
     
 }
 .side_item a {
