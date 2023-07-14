@@ -72,6 +72,7 @@ START of CSS */
 .header p {
     font-size: 25px;
     font-weight: bolder;
+    color: whitesmoke;
 }
 
 .header img {
@@ -102,9 +103,9 @@ START of CSS */
 }
 
 .side_item a p {
-    color: black;
     font-weight: bold;
     font-size: 15px;
+    color: whitesmoke;
 }
 
 #settings, #support, #privacy {
