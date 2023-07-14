@@ -70,7 +70,6 @@ START of CSS */
 }
 
 .header p {
-    width: 125px;
     font-size: x-large;
     font-weight: bolder;
 }
@@ -100,6 +99,11 @@ START of CSS */
 .side_item img {
     width: 40px;
     height: 40px;
+}
+
+.side_item a p {
+    color: black;
+    font-weight: bold;
 }
 
 #settings, #support, #privacy {
