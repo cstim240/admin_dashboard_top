@@ -49,8 +49,10 @@ table {
 
 /*=====================================================================================================================
 START of CSS */
+
 body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+    background-color: #e7e5e4;
 }
 
 .container {
@@ -239,8 +241,7 @@ body {
 }
 
 .articles {
-    background-color: darkorange;
-    border: 1px solid black;
+    background-color: #e7e5e4;
     margin-left: 10px;
     padding: 30px 20px 50px 20px; /*top, right, bottom, left*/
     grid-row: 3 / 10;
@@ -255,7 +256,7 @@ body {
 .article_section_heading {
     font-size: 20px;
     font-weight: 700;
-    color: darkgreen;
+    color: #292524;
 }
 
 .your_projects {
@@ -275,11 +276,11 @@ body {
 }
 
 .project_item {
-    border: 5px solid orangered;
+    border: 5px solid #86efac;
     padding: 25px 10px 0px 20px; /*top, right, bottom, left*/
     margin-right: -35px;
     height: 180px;
-    background-color: wheat;
+    background-color: #fafafa;
     border-radius: 15px;
     border-style: none none none solid;
     box-shadow: 3px 5px 8px grey; /* offset-x | offset-y | blur-radius | color */
@@ -326,7 +327,7 @@ body {
 }
 
 .announcement_content {
-    background-color: wheat;
+    background-color: #fafafa;
     border-radius: 15px;
     padding: 25px 10px 0px 20px;/*top, right, bottom, left*/
     box-shadow: 3px 5px 8px grey;
@@ -344,7 +345,7 @@ body {
 }
 
 .trending_content {
-    background-color: wheat;
+    background-color: #fafafa;
     border-radius: 15px;
     box-shadow: 3px 5px 8px grey;
     padding: 25px 10px 0px 20px;/*top, right, bottom, left*/
