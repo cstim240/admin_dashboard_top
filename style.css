@@ -193,9 +193,18 @@ START of CSS */
 
 }
 
-.greetings_sec #hello {
+#hello {
     grid-column: 2 / 3;
+    font-size: 20px;
+    font-weight: bold;
 }
+
+#username_handle {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
 
 .nav_buttons {
     grid-column: 4 / 6;
