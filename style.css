@@ -56,7 +56,6 @@ START of CSS */
     display: grid;
     grid-template-rows: repeat(auto-fit, 125px);
     grid-template-columns: 225px, repeat(auto-fit, 1fr);
-    gap: 10px;
 }
 
 .header {
@@ -117,6 +116,7 @@ START of CSS */
 .nav_bar {
     background-color: khaki;
     border: 1px solid black;
+    margin-bottom: 10px;
     box-shadow: 5px 5px 5px grey;
     grid-column: 2 / 11;
     grid-row: 1 / 3;
