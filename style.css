@@ -248,7 +248,7 @@ body {
 
 .article_section_heading {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     color: darkgreen;
 }
 
@@ -287,6 +287,7 @@ body {
 
 .project_title {
     font-weight: 500;
+    font-size: 18px;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
@@ -315,6 +316,7 @@ body {
 
 .announcement_topic {
     font-weight: 500;
+    font-size: 18px;
 }
 
 .announcement_content {
