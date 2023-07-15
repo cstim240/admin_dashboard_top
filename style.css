@@ -129,7 +129,7 @@ START of CSS */
     padding-left: 20px;
 
     display: grid;
-    grid-template-columns: 30px 4fr;
+    grid-template-columns: 30px minmax(400px, 4fr);
     gap: 10px;
 }
 
