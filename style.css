@@ -319,9 +319,10 @@ body {
 .footer {
     background-color: blueviolet;
     border: 1px solid black;
-    padding: 3px;
+    padding: 5px;
     grid-row: 9 / 10;
     grid-column: 1 / 11;
+    font-size: x-small;
 
     display: grid;
     grid-template-columns: 1fr 370px 1fr;
