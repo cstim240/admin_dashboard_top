@@ -234,6 +234,7 @@ START of CSS */
     border: 1px solid black;
     margin-left: 10px;
     padding: 10px;
+    padding-bottom: 30px;
     grid-row: 3 / 10;
     grid-column: 2 / 11;
 
