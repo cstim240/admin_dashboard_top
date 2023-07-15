@@ -260,7 +260,7 @@ START of CSS */
 
 .project_item {
     border: 5px solid grey;
-    padding: 10px; /*top, right, bottom, left*/
+    padding: 10px 10px 0px 10px; /*top, right, bottom, left*/
     background-color: wheat;
     border-radius: 20px;
     border-style: none none none solid;
@@ -268,8 +268,8 @@ START of CSS */
 
     display: grid;
     grid-template-columns: 200px;
-    grid-template-rows: 20px 120px 35px;
-    gap: 10px;
+    grid-template-rows: 20px 120px 20px;
+    
 }
 
 .project_title {
