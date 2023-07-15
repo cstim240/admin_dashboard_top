@@ -239,7 +239,7 @@ START of CSS */
     grid-column: 2 / 11;
 
     display: grid;
-    grid-template-columns: 7fr 2fr;
+    grid-template-columns: minmax(555px, 830px) 1fr;
     grid-template-rows: 4fr, 3fr;
     gap: 15px;
 }
@@ -297,11 +297,8 @@ START of CSS */
 }
 
 .announcements {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-
     display: grid;
-    grid-template-rows: 120px 120px 120px;
+    grid-template-rows: 20px 120px;
 }
 
 
