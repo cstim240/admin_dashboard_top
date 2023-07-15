@@ -207,11 +207,25 @@ START of CSS */
     color: black;
 }
 
-
-
 .nav_buttons {
     grid-column: 4 / 6;
+
+    display: grid;
+    grid-template-columns: 1fr 70px 70px 70px;
+    gap: 15px;
+    margin-right: 80px;
 }
+
+#new_button {
+    grid-column: 2 / 3;
+}
+
+.nav_buttons button {
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+}
+
 
 .articles {
     background-color: darkorange;
