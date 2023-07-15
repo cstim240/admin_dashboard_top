@@ -261,6 +261,9 @@ START of CSS */
 .project_item {
     border: 2px solid black;
     padding: 10px;
+    background-color: wheat;
+
+    display: grid;
 }
 
 
