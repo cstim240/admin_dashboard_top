@@ -141,6 +141,7 @@ START of CSS */
     border-radius: 20px;
     height: 25px;
     border: none;
+    padding: 5px 10px 5px 10px;
 }
 
 .profile_sec {
