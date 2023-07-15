@@ -232,6 +232,10 @@ body {
     border: none;
 }
 
+.handle {
+    color: #428eeb;
+}
+
 .articles {
     background-color: darkorange;
     border: 1px solid black;
@@ -356,6 +360,10 @@ body {
 .trending_content div img {
     width: 40px;
     border-radius: 50%;
+}
+
+.personal_github {
+    text-decoration-line: none;
 }
 
 .footer {
