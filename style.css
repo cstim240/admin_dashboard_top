@@ -296,14 +296,22 @@ START of CSS */
     margin-right: -10px;
 }
 
+.announcements {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+    display: grid;
+    grid-template-rows: 120px 120px 120px;
+}
+
 
 
 .footer {
     background-color: blueviolet;
     border: 1px solid black;
     padding: 3px;
-    grid-row: 10 / 11;
-    grid-column: 1 / span 10;
+    grid-row: 9 / 10;
+    grid-column: 1 / 11;
 
     display: grid;
     grid-template-columns: 1fr 348px 1fr;
