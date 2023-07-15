@@ -116,6 +116,7 @@ START of CSS */
 .nav_bar {
     background-color: khaki;
     border: 1px solid black;
+    box-shadow: 5px 5px 5px grey;
     grid-column: 2 / 11;
     grid-row: 1 / 3;
 
