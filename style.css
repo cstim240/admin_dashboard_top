@@ -260,13 +260,14 @@ START of CSS */
 }
 
 .project_item {
-    border: 5px solid grey;
+    border: 5px solid orangered;
     padding: 25px 10px 0px 20px; /*top, right, bottom, left*/
     margin-right: -35px;
     height: 180px;
     background-color: wheat;
     border-radius: 15px;
     border-style: none none none solid;
+    box-shadow: 1px 5px 5px grey;
 
 
     display: grid;
