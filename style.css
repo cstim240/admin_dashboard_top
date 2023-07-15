@@ -286,6 +286,7 @@ body {
 }
 
 .project_title {
+    font-weight: 500;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
@@ -310,6 +311,10 @@ body {
     width: 345px;
     grid-template-rows: 25px 267px;
     gap: 10px;
+}
+
+.announcement_topic {
+    font-weight: 500;
 }
 
 .announcement_content {
