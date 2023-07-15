@@ -268,7 +268,7 @@ START of CSS */
 
     display: grid;
     grid-template-columns: 200px;
-    grid-template-rows: 40px 100px 25px;
+    grid-template-rows: 20px 120px 35px;
     gap: 10px;
 }
 
