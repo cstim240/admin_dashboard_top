@@ -269,7 +269,7 @@ body {
     background-color: wheat;
     border-radius: 15px;
     border-style: none none none solid;
-    box-shadow: 3px 5px 8px grey;; /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 3px 5px 8px grey; /* offset-x | offset-y | blur-radius | color */
 
 
     display: grid;
@@ -302,6 +302,7 @@ body {
     display: grid;
     width: 345px;
     grid-template-rows: 20px 267px;
+    gap: 5px;
 }
 
 .announcement_content {
@@ -309,6 +310,7 @@ body {
     background-color: wheat;
     border-radius: 15px;
     padding: 25px 10px 0px 20px;/*top, right, bottom, left*/
+    box-shadow: 3px 5px 8px grey;
     
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
