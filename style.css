@@ -61,7 +61,7 @@ body {
 }
 
 .header {
-    padding-left: 5px;;
+    padding-left: 5px;
     padding-right: 10px;
     background-color: #166534;
     grid-column: 1 / 2;
@@ -177,6 +177,7 @@ body {
 .profile_sec p {
     margin-top: 10px;
     font-weight: bolder;
+    color: #292524;
 
 }
 
@@ -202,13 +203,13 @@ body {
     grid-column: 2 / 3;
     font-size: 20px;
     font-weight: bold;
-    color: black;
+    color: #44403c;
 }
 
 #username_handle {
     font-size: 30px;
     font-weight: bold;
-    color: black;
+    color: #44403c;
 }
 
 .nav_buttons {
@@ -228,6 +229,9 @@ body {
     height: 40px;
     border-radius: 25px;
     border: none;
+    background-color: #166534;
+    font-weight: 600;
+    color: white;
 }
 
 .handle {
