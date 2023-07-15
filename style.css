@@ -269,7 +269,7 @@ body {
     background-color: wheat;
     border-radius: 15px;
     border-style: none none none solid;
-    box-shadow: 1px 5px 5px grey;
+    box-shadow: 3px 5px 8px grey;; /* offset-x | offset-y | blur-radius | color */
 
 
     display: grid;
