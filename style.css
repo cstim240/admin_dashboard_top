@@ -301,7 +301,7 @@ START of CSS */
     grid-column: 1 / span 10;
 
     display: grid;
-    grid-template-columns: 1fr minmax(500px, 1fr) 1fr;
+    grid-template-columns: 1fr 348px 1fr;
     color: white;
 }
 
@@ -309,7 +309,7 @@ START of CSS */
     grid-column: 2 / 3;
 
     display: grid;
-    grid-template-columns: 10px 490px;
+    grid-template-columns: 10px 1fr;
     gap: 5px;
 }
 
