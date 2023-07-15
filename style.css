@@ -238,6 +238,24 @@ START of CSS */
 .footer {
     background-color: blueviolet;
     border: 1px solid black;
+    padding: 3px;
     grid-row: 10 / 11;
     grid-column: 1 / span 10;
+
+    display: grid;
+    grid-template-columns: 1fr minmax(500px, 1fr) 1fr;
+    color: white;
 }
+
+.footer_content {
+    grid-column: 2 / 3;
+
+    display: grid;
+    grid-template-columns: 10px 490px;
+    gap: 5px;
+}
+
+.footer a img {
+    width: 10px;
+}
+
