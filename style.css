@@ -300,11 +300,12 @@ body {
 
 .announcements {
     display: grid;
-    grid-template-rows: 20px 210px;
+    width: 345px;
+    grid-template-rows: 20px 267px;
 }
 
 .announcement_content {
-    border: 1px solid black;
+    border: none;
     background-color: wheat;
     border-radius: 15px;
     padding: 25px 10px 0px 20px;/*top, right, bottom, left*/
