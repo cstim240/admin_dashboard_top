@@ -260,7 +260,7 @@ START of CSS */
 
 .project_item {
     border: 2px solid black;
-    padding: 10px;
+    padding: 10px, 10px, 10px, 0px; /*top, right, bottom, left*/
     background-color: wheat;
 
     display: grid;
