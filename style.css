@@ -301,8 +301,7 @@ body {
 .announcements {
     display: grid;
     width: 345px;
-    grid-template-rows: 20px 267px;
-    gap: 5px;
+    grid-template-rows: 25px 267px;
 }
 
 .announcement_content {
