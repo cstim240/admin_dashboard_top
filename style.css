@@ -244,6 +244,11 @@ START of CSS */
     grid-row: 1 / 3;
 
     display: grid;
+    grid-template-rows: 25px 1fr;
+}
+
+.project_items {
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
