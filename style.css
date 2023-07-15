@@ -305,7 +305,6 @@ body {
 }
 
 .announcement_content {
-    border: none;
     background-color: wheat;
     border-radius: 15px;
     padding: 25px 10px 0px 20px;/*top, right, bottom, left*/
@@ -315,7 +314,20 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+.trending {
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: 25px 267px;
+    width: 345px;
+}
 
+.trending_content {
+    background-color: wheat;
+    border-radius: 15px;
+    box-shadow: 3px 5px 8px grey;
+    padding: 25px 10px 0px 20px;/*top, right, bottom, left*/
+
+}
 
 .footer {
     background-color: blueviolet;
