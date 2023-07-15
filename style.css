@@ -362,6 +362,12 @@ body {
     border-radius: 50%;
 }
 
+.trending_description {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+}
+
 .personal_github {
     text-decoration-line: none;
 }
