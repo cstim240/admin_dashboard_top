@@ -313,7 +313,7 @@ body {
     grid-column: 1 / 11;
 
     display: grid;
-    grid-template-columns: 1fr 348px 1fr;
+    grid-template-columns: 1fr 370px 1fr;
     color: white;
 }
 
