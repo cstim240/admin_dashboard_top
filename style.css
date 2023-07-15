@@ -258,6 +258,7 @@ body {
 
     display: grid;
     grid-template-rows: 25px 1fr;
+    gap: 10px;
 }
 
 .project_items {
@@ -308,6 +309,7 @@ body {
     display: grid;
     width: 345px;
     grid-template-rows: 25px 267px;
+    gap: 10px;
 }
 
 .announcement_content {
@@ -324,6 +326,7 @@ body {
     margin-top: 10px;
     display: grid;
     grid-template-rows: 25px 267px;
+    gap: 10px;
     width: 345px;
 }
 
