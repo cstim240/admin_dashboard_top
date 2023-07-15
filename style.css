@@ -240,6 +240,7 @@ START of CSS */
     display: grid;
     grid-template-columns: 7fr 2fr;
     grid-template-rows: 4fr, 3fr;
+    gap: 15px;
 }
 
 .your_projects {
