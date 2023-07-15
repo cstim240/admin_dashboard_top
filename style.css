@@ -254,13 +254,14 @@ START of CSS */
 
 .project_items {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, 220px);
     gap: 15px;
 }
 
 .project_item {
     border: 5px solid grey;
     padding: 10px 10px 0px 10px; /*top, right, bottom, left*/
+    height: 180px;
     background-color: wheat;
     border-radius: 20px;
     border-style: none none none solid;
