@@ -262,10 +262,10 @@ START of CSS */
 .project_item {
     border: 5px solid grey;
     padding: 25px 10px 0px 20px; /*top, right, bottom, left*/
-    margin-right: -40px;
+    margin-right: -35px;
     height: 180px;
     background-color: wheat;
-    border-radius: 20px;
+    border-radius: 15px;
     border-style: none none none solid;
 
 
@@ -292,8 +292,7 @@ START of CSS */
     grid-template-columns: 25px 25px 25px;
     justify-content: end;
     gap: 5px;
-    padding-right: 5px;
-
+    margin-right: -10px;
 }
 
 
