@@ -289,6 +289,9 @@ START of CSS */
     display: grid;
     grid-template-columns: 20px 20px 20px;
     justify-content: end;
+    gap: 5px;
+    padding-right: 5px;
+    
 }
 
 
