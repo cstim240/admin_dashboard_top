@@ -264,6 +264,30 @@ START of CSS */
     background-color: wheat;
 
     display: grid;
+    grid-template-columns: 5px 200px;
+    grid-template-rows: 100px 100px 25px;
+}
+
+.project_title {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.side_stripe {
+    grid-column: 1 / 2;
+    grid-row: 1 / span 3;
+    background-color: aqua;
+}
+.project_description {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.project_options {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+
+    display: grid;
+    grid-template-columns: 10px 10px 10px;
 }
 
 
